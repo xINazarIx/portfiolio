@@ -1,0 +1,50 @@
+.connect-button-secondary {
+  position: relative;
+
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;  
+  letter-spacing: 0.8px;
+  background-color: transparent;
+  transition: all .2s;
+
+  svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.4s ease-in-out;
+    line-height: 1;
+  }
+
+  &::after, &::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 0px;
+    height: 2px;
+    background-color: #e25702;
+    transition: all .3s;
+  }
+
+  &::before{
+    right: 0;
+    top: -10px
+  }
+
+  &:hover{
+    color: #e25702;
+    svg {
+      margin-left: 20px;
+      stroke: #e25702;
+    }
+
+    &::after, &::before{
+      width: 100%;
+    }
+  }
+
+}

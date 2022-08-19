@@ -1,0 +1,18 @@
+.slick-arrow{
+  width: 200px;
+  height: 200px;
+}
+
+.slider-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px 25px;
+  overflow: hidden;
+  height: 360px;
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  font-size: 46px;
+  font-weight: 700;
+}

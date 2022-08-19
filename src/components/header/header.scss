@@ -1,0 +1,30 @@
+.header{
+  background-color: transparent;
+
+  &-logo{
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  &-inner{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-right{
+    display: flex;
+    align-items: center;
+  }
+
+  &-social-links{
+    margin-right: 25px;
+  }
+}
